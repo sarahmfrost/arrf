@@ -129,8 +129,26 @@
 					<header id="header" class="alt">
 						<h1><a href="index.html">All Retriever Rescue Foundation</a></h1>
 						<nav>
-							<a href="https://www.paypal.com/us/home" target="_blank">Donate Via Paypal - coming soon</a>
-							<!--<a href="https://www.paypal.com/us/home" target="_blank"><h2>Donate</h2></a>-->
+
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'PZPSCHXY2B6WG',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+
+
+							<!--<a href="https://www.paypal.com/us/home" target="_blank">Donate Via Paypal - coming soon</a>
+							<a href="https://www.paypal.com/us/home" target="_blank"><h2>Donate</h2></a>-->
 						</nav>
 					</header>
 
