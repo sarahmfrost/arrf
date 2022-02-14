@@ -3387,10 +3387,10 @@ input, select, textarea {
 		}
 
 		#banner .logo {
-			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
+		/*	-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
 			-ms-transition: opacity 2s ease, -ms-transform 1s ease;
-			transition: opacity 2s ease, transform 1s ease;
+			transition: opacity 2s ease, transform 1s ease;*/
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3412,7 +3412,7 @@ input, select, textarea {
 			}
 
 		#banner h2 {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+		/*	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
 			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
@@ -3427,7 +3427,7 @@ input, select, textarea {
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
-			filter: blur(0);
+			filter: blur(0); */
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
@@ -3436,7 +3436,7 @@ input, select, textarea {
 		}
 
 		#banner p {
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+		/*	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
 			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
@@ -3451,7 +3451,7 @@ input, select, textarea {
 			-moz-filter: blur(0);
 			-webkit-filter: blur(0);
 			-ms-filter: blur(0);
-			filter: blur(0);
+			filter: blur(0);*/
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
